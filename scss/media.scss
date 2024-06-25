@@ -1,0 +1,64 @@
+    @media screen and (max-width: 768px) {
+        .header__nav {
+          padding-top: 30px;
+          gap: 16px;
+        }
+      
+        .header__item {
+          font-size: 16px;
+          margin-right: 12px;
+        }
+      
+        .header__consultation-btn {
+          margin-top: 20px;
+          margin-left: 0;
+          width: 100%;
+        }
+      
+        .start {
+          padding: 40px 0 40px;
+        }
+      
+        .start__info {
+          padding: 0;
+        }
+      
+        .start__title {
+          font-size: 32px;
+          line-height: 48px;
+        }
+      
+        .start__search {
+          flex-direction: column;
+          padding: 32px 16px;
+          gap: 24px;
+        }
+      
+        .start__label {
+          width: 100%;
+        }
+      
+        .start__location {
+          width: 100%;
+        }
+      
+        .start__block-date {
+          width: 100%;
+        }
+      
+        .start__date {
+          width: 100%;
+        }
+      
+        .start__quantity {
+          width: 100%;
+        }
+      
+        .start__search-program {
+          width: 100%;
+        }
+      }
+      
+      
+      
+     
