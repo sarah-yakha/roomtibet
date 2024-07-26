@@ -132,6 +132,7 @@ label {
 .header__item-link {
   text-decoration: none;
   font-size: 18px;
+   color: rgb(253, 253, 253);
 }
 .header__item-link:hover {
   color: rgb(242, 190, 34);
@@ -626,6 +627,7 @@ label {
 .popular__pic {
   background-image: url(/images/foto1.png);
   background-repeat: no-repeat;
+  width: 370px;
   height: auto;
   max-width: 100%;
   -o-object-fit: cover;
@@ -635,13 +637,14 @@ label {
 .popular_container {
   position: relative;
   overflow: hidden;
-  width: 280px;
+  
+ 
 }
 
 .popular__overlay-overlay {
   position: absolute;
-  left: 0;
-  top: 50%;
+
+  top: 0;
   display: flex;
   flex-direction: column;
   border-radius: 32px;
@@ -649,20 +652,17 @@ label {
   height: 100%;
   box-sizing: border-box;
   background: rgba(255, 255, 255, 0.1);
+  transition: 2s ;
+  backdrop-filter: blur(4px);
+  transform: translateY(350px);
   transition: all 2s ease-in-out;
-  -webkit-backdrop-filter: blur(6px);
-  backdrop-filter: blur(6px);
-  animation: render 500ms ease-in-out;
+  
+}
+.popular__overlay-overlay:hover {
+  transform: translateY(20px);
+  transition: all 2s ease-in-out;
 }
 
-@keyframes render {
-  0% {
-    transform: scaleY(1);
-  }
-  100% {
-    transform: scaleY(0);
-  }
-}
 .popular__btn {
   width: 157px;
   height: 52px;
@@ -853,3 +853,6 @@ label {
   height: auto;
   display: block;
 }/*# sourceMappingURL=main.css.map */
+
+
+
