@@ -448,6 +448,8 @@ $color_1: rgba(242, 190, 34, 1);
 //СЕКЦИЯ С ФОТКАМИ ПОПУЛЯРНЫХ НАПРАВЛЕНИЙ
 .container_popular {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   .popular__content {
     display: flex;
@@ -478,8 +480,8 @@ $color_1: rgba(242, 190, 34, 1);
     flex-direction: row;
     flex-wrap: wrap;
     padding-top: 4rem;
-    padding-left: 13rem;
-    justify-content: center;
+    padding-left: 3rem;
+   justify-content: center;
     align-items: center;
     gap: 20px;
 }
@@ -488,7 +490,7 @@ $color_1: rgba(242, 190, 34, 1);
         font-weight: 400;
         font-size: $font-size;
         line-height: 24px;
-        color: rgb(182, 128, 128);
+        color: rgba(253, 253, 253, 1);
     } 
     .overlay__name {
         font-family: $font-family;
@@ -534,10 +536,7 @@ $color_1: rgba(242, 190, 34, 1);
         color: #053b15;
       }
     }
-    .popular {
-        display: flex;
-        flex-wrap: wrap;
-    }
+   
     .popular__pic {
         background-image: url(/images/foto1.png);
         background-repeat: no-repeat;
@@ -586,7 +585,7 @@ $color_1: rgba(242, 190, 34, 1);
   align-items: center;
 }
 .popular__btn {
-    width: 157px;
+    width: 199px;
     height: 52px;
 
 
@@ -604,7 +603,7 @@ $color_1: rgba(242, 190, 34, 1);
         transition: 0.4s;
         color: #fdfdfd;
         background-color: $color;
-        margin-top: 40px;
+        margin-top: 80px;
       }
       &:hover {
         background-color: #fdfdfd;
@@ -613,7 +612,7 @@ $color_1: rgba(242, 190, 34, 1);
     }
 //СЕКЦИЯ С БЛОГОМ
 .container__blog {
-    padding-top: 200px;
+    padding-top: 100px;
     background-color: rgba(243, 245, 244, 1);
     display: flex;
     flex-direction: column;
@@ -644,6 +643,8 @@ $color_1: rgba(242, 190, 34, 1);
 .blog__media-news {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     
 }
 .blog__media-cards {
@@ -741,7 +742,7 @@ $color_1: rgba(242, 190, 34, 1);
     margin: 0;
     padding: 0;
     display: flex;
-   flex-direction: row;
+   flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100hv;
@@ -754,6 +755,7 @@ $color_1: rgba(242, 190, 34, 1);
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     max-width: 1000px;
+   
 }
 
 .grid-item {
@@ -794,6 +796,7 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: row;
 }
 .footer_block {
   background-color: rgba(253, 253, 253, 1);
